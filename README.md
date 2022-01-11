@@ -56,8 +56,8 @@ $ rostopic echo /rand
 $ rosrun robosys_mypkg rannsuu_rate.py
 ```
 ***
-# デモ動画　　変更途中
-[[Raspberry Pi 4] デバイスドライバ](https://www.youtube.com/watch?v=oNSrJS55dIE)
+# デモ動画
+[[Raspberry Pi 4] ROS](https://www.youtube.com/watch?v=z6F4rG4Ik7I)
 ***
 # ライセンス
 [BSD 3-Clause "New" or "Revised" License](https://github.com/ryuseiiiii/robosys_mypkg/blob/main/LICENSE)
@@ -75,20 +75,19 @@ $ rosrun robosys_mypkg rannsuu_rate.py
 
 [python インデント](https://www.sejuku.net/blog/71596)
 ***
-# 自分のオリジナル　　変更途中
-myled.c内の32行目から44行目は私のオリジナルです。目覚まし時計や小学生が良く持っている防犯ブザーをイメージして作成しました。
+# 自分のオリジナル
+rannsuu.py内の12行目から18行目は私のオリジナルです。
 ```
-        else if(c == '2'){
-                for(i=0;i<100;i++){
-                        if(i%2 == 0){
-                                gpio_base[7] = 1 << 25;
-                                msleep(50);
-                        }else if(1%2 != 0){
-                                gpio_base[10] = 1 << 25;
-                                msleep(50);
-                        }
-                }
-                gpio_base[10] = 1 << 25;
+    n = random.randint(1,100)
 
-        }
+    if n == 1:
+        rate = rospy.Rate(1)
+
+    else:
+        rate = rospy.Rate(50)
+```
+rannsuu_rate.py内の18行目から19行目は私のオリジナルです。
+```
+        if n == 1:
+            print('トゥース！！！！！！！！！！\n')
 ```
