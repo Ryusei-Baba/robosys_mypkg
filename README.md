@@ -62,6 +62,9 @@ $ rosrun robosys_mypkg rannsuu_rate.py
 # ライセンス
 [BSD 3-Clause "New" or "Revised" License](https://github.com/ryuseiiiii/robosys_mypkg/blob/main/LICENSE)
 ***
+# 著作権
+馬場琉生 + 上田隆一
+***
 # 参考
 ・以下のサイトを参考にしました。
 
