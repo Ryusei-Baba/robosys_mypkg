@@ -19,7 +19,7 @@
 以下のコマンドを実行してください。
 
 ```
-$ git clone git@github.com:ryuseiiiii/robosys_mypkg.git
+$ git clone git@github.com:Ryusei-Baba/robosys_mypkg.git
 
 $ cd ~/robosys_mypkg/scripts/
 
