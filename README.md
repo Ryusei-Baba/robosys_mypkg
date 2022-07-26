@@ -57,7 +57,7 @@ $ rosrun robosys_mypkg rannsuu_rate.py
 ```
 ***
 # デモ動画
-[[Raspberry Pi 4] ROS](https://www.youtube.com/watch?v=z6F4rG4Ik7I)
+[[Raspberry Pi 4] ROS](https://youtu.be/hW9QKhsuqbg)
 ***
 # ライセンス
 [BSD 3-Clause "New" or "Revised" License](https://github.com/ryuseiiiii/robosys_mypkg/blob/main/LICENSE)
